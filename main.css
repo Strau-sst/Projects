@@ -56,7 +56,7 @@ body {
 
 .imagen {
 	grid-row: 1 / span 2;
-	background-image: linear-gradient(#A03C7866, #512D6D40), url(image-header-desktop.jpg);
+	background-image: linear-gradient(#A03C7866, #512D6D40), url('image-header-desktop.jpg');
 	height: 100%;
 	width: 100%;
 	border-radius: 0 10px 10px 0;
