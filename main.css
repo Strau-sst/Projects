@@ -56,7 +56,7 @@ body {
 
 .imagen {
 	grid-row: 1 / span 2;
-	background-image: linear-gradient(#A03C7866, #512D6D40), url(image-header-desktop.jpg);
+	background-image: linear-gradient(#A03C7866, #512D6D40), url(./images/image-header-desktop.jpg);
 	height: 100%;
 	width: 100%;
 	border-radius: 0 10px 10px 0;
@@ -66,6 +66,7 @@ body {
 .attribution {
 	text-align: center;
 	margin: 10px;
+	color: #fff;
 }
 
 	.attribution a {
@@ -75,7 +76,7 @@ body {
 
 	}
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 450px) {
 
 	body {
 		margin: 100px 40px;
@@ -83,17 +84,22 @@ body {
 
 	.principal {
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 180px 300px;
+		grid-template-rows: 1fr 220px 220px;
 		height: 100%;
 		
 		}
 
 		.main {
 			grid-row: 2;
-			padding-top: 20px;
-			height: 250px;
+			padding: 20px 40px 0px 40px;
+
 			text-align: center;
 		}
+
+			.main  h1 {
+				font-size: 1.5em;
+				margin-bottom: 20px;
+			}
 
 			.main p {
 				font-size: 0.8em;
@@ -104,18 +110,21 @@ body {
 			grid-row: 1;
 			grid-column: 1;
 			height: 438px;
+
 			border-radius: 10px 10px 0 0;
 		}
 
 		.datos {
 			grid-row: 3;
 			flex-direction: column;
-			margin-top: 50px;
-			height: 300px;
+		
+			padding: 0;
+			margin: 0;
 		}
-
+	
 	.attribution {
 		font-size: 0.8em;
+
 	}
 
 	
